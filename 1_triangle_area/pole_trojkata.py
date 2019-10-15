@@ -9,8 +9,12 @@ def area_calculate( a, b, c ):
     p = float
     p = perimeter / 2
 
+    print("połowa obdwodu trójkąta to:" + str(p))
+
     z = float
     z = (p * (p - a) * (p - b) * (p - c))
+
+    print("składowa wyniku pola to:" + str(z))
 
     area = float
     area = math.sqrt(z)
